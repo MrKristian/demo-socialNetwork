@@ -1,0 +1,12 @@
+.friendsItem{
+    text-align: center;
+}
+.friendsItem img{
+    width: 30%;
+    height: 30%;
+    padding-top: 20%;
+}
+.friendsItem h5{
+    margin: 0;
+    
+}

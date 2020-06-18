@@ -1,0 +1,28 @@
+.nav_wraper{
+    grid-area: n;
+    margin: 5% 10%;
+    padding: 20% 5%;
+}
+.nav_wraper li{
+    list-style: none;
+}
+.nav_wraper a{
+    text-decoration: none;
+    color: #2A80BBFF;
+}
+.nav_wraper a.active{
+    color: #1F618CFF;
+}
+.h :hover li{
+    color: #2A80BBFF;
+    background-color: #DCDADAFF;
+    list-style: outside;
+}
+.friendsNavBar{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
+}
+.friendsNavBar :hover{
+    background-color: blue;
+}

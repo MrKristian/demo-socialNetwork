@@ -1,0 +1,45 @@
+.dialog_wrapper{
+    border: 1px solid grey;
+}
+.dialog{
+    list-style: none;
+    text-decoration: none;
+}
+.text_items{
+    display: flex;
+}
+.message{
+    padding-left: 1em;    
+}
+.messageForm{
+    width: 99.5%;
+    border: 1px solid #2A80BB;
+    border-radius: 1em;
+}
+.messageFormWrapper{
+    width: 100%;
+}
+.messageFormButton{
+    float: right;
+    width: 10em;
+    height: 2.7em;
+    border: 1px solid #2A80BB;
+    border-radius: 1em;
+}
+
+@media screen and (max-with:375px){
+    .dialog_wrapper{
+        display: block;
+        max-width: 375px;
+    }
+    .dialog_wrapper{
+        grid-template-columns: 0;
+        width: 100%;
+    }
+    .dialog{
+        width: 100%;
+    }
+    .message img{
+        width: 1em;
+    }
+}

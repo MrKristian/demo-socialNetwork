@@ -1,0 +1,21 @@
+.info{
+    padding: 1%;
+    display: flex;
+    justify-content: left; 
+}
+.infoImg{
+    width: 3.5em;
+    height: 3.5em; 
+}
+.infoItems{
+    display: inline-flex;
+}
+.info_text{
+    margin-top: -1.5em;
+    padding-left: 1em;
+}
+.infoLikesImg{  
+    width: 1em;
+    height: 1em;
+    padding: 0;
+}

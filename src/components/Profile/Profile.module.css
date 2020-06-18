@@ -1,0 +1,13 @@
+.profile{
+    width: 100%;
+}
+@media screen and (max-with: 768px){
+    .profile{
+        max-width: 768px;
+    }
+}
+@media screen and (max-width: 375px){
+    .profile{
+        max-width: 375px;
+    }
+}

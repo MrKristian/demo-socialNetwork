@@ -1,0 +1,60 @@
+.usersWraper{
+    display: block;
+}
+
+.avatarsStyle{
+    width: 50%;
+    border-radius: 5px;
+}
+
+.f_button{
+    border: none;
+    color: cadetblue;
+    background-color: rgba(127, 159, 201, 0.685);
+    float: right;
+}
+
+.userWrapper{
+    padding: 2%;
+    border: 1px solid grey;
+}
+
+.dataWrapper{
+    display: inline-flex;
+    width: 100%;
+}
+
+.padding{
+    padding-right: 5em;
+}
+
+.paddingA{
+    float: right;
+    padding-right: 15em;
+    justify-content: center;
+}
+
+.paginator{
+    padding-left: 25em;
+}
+
+@media screen and (max-width: 540px){
+    .usersWraper{
+        max-width: 540px;
+    }
+    
+    .padding{
+        padding-right: 2em;
+    }
+
+    .paginator{
+        padding-left: 5em;
+    }
+    .paginator img{
+        display: block;
+    }
+
+    .avatarsStyle{
+        width: 5em;
+    }
+}

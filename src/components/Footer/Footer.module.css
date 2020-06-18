@@ -1,0 +1,10 @@
+.footer{
+    grid-area: f;
+    background-color: #226796FF;
+    
+}
+.footerItem{
+    color: white;
+    display: flex;
+    justify-content: center;
+}

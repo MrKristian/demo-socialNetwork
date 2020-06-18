@@ -1,0 +1,34 @@
+.header{
+	grid-area: h;
+	background-color: #2A80BB;
+}
+.header img{
+	margin: 0.5em 1em;
+}
+.headerItems{
+	display: inline-block;
+}
+.headerItems img{
+	width: 3em;
+}
+.loginBlock{
+	float: right;
+	padding: 0.5em;
+}
+.menuIconWrapper button{
+	display: none;
+}
+
+@media screen and (max-width: 768px){
+	.menuIconWrapper{
+		display: inline-flex;
+		width: 5%;
+		padding: 0.5em;
+	}
+	.menuIconWrapper button{
+		display: block;
+	}
+	.menuIconWrapper img{
+		margin: auto;
+	}
+}

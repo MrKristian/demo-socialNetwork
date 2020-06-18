@@ -1,0 +1,21 @@
+.post{
+    width: 99.5%;
+    border: 1px solid #2A80BB;
+    border-radius: 1em;
+}
+.postButton{
+    float: right;
+    width: 10em;
+    height: 2em;
+    border: 1px solid #2A80BB;
+    border-radius: 1em;
+}
+.textArea{
+    padding-top: 1%;
+}
+
+@media screen and (max-width: 768px){
+    .profile_s{
+        max-width: 768px;
+    }    
+}

@@ -1,0 +1,16 @@
+.dialog_wrapper{
+    padding: 1em 50%;
+    border: 1px solid grey;
+}
+.dialog_wrapper a{
+    text-decoration: none;
+    color: #2A80BB;
+}
+
+@media screen and (max-width: 540px){
+    .dialog_wrapper{
+        max-width: 540px;
+        padding: 1em 45%;
+        border: 1px solid grey;
+    } 
+}
